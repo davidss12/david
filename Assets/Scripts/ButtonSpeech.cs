@@ -16,6 +16,6 @@ public class ButtonSpeech : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public void OnPointerUp(PointerEventData eventData)
     {
-       
+        OnButtonRealeased?.Invoke();
     }
 }
